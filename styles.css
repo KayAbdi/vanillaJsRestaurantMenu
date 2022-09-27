@@ -243,6 +243,14 @@ Menu
   padding-top: 1rem;
 }
 
+
+@media screen and (min-width: 375px){
+  .filter-btn {
+    margin: 0 0.1rem;
+    letter-spacing: o.5px;
+    padding: 0.375rem 0.5rem;
+  }
+}
 @media screen and (min-width: 768px) {
   .menu-item {
     grid-template-columns: 225px 1fr;
